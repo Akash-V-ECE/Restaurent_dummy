@@ -1,0 +1,80 @@
+:root{
+    --caramel:#ECB176;
+    --skiny:#FED8B1;
+    --lbrown:#A67B5B;
+    --brown:#6F4E37;
+    --dblue:#262A56;
+    --gcar:#B8621B;
+    --wte:whitesmoke;
+    --cy:#018787;
+   
+   }
+
+   .land{
+    background-image: url('../media/location.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color:black;
+}
+   body,h2{
+    margin:0;
+    margin-bottom: 50px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+header a{
+    text-decoration: none;
+    color:var(--dblue);
+    min-width: 120px;
+}
+header{
+    display:flex;
+    flex-wrap:wrap;
+    row-gap: 1em;
+    padding:1em;
+
+}
+#logo{
+    flex:3;
+    font-size: 2em;
+    min-width: 260px;
+}
+nav{
+    flex:2;
+    display:flex;
+    align-items: center;
+}
+nav a{
+    flex:1;
+}
+nav a:hover{
+    color:var(--caramel);
+    font-size:20px;
+}
+header i, nav a i{
+    margin-right: .5em;
+}
+#locheading{
+    /*background:var(--skiny);*/
+    font-size:2.5em;
+    display:flex;
+    justify-content: center;
+}
+.locations
+{
+    /*background:var(--skiny);*/
+    font-weight: bold;
+    display:flex;
+    flex-wrap: wrap;
+
+}
+.locations h2{
+    /*color:var(--cy);*/
+    margin-bottom: .8em;
+
+}
+.locations div{
+    flex:1;
+    padding:1em;
+    min-width:220px;
+}

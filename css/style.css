@@ -1,0 +1,94 @@
+:root{
+ --caramel:#ECB176;
+ --skiny:#FED8B1;
+ --lbrown:#A67B5B;
+ --brown:#6F4E37;
+ --dblue:#262A56;
+ --gcar:#B8621B;
+ --wte:whitesmoke;
+ --cy:#018787;
+}
+body,h2{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.land{
+    background-image: url('../media/land5.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: var(--wte);
+}
+header a{
+    text-decoration: none;
+    color:var(--skiny);
+    min-width: 120px;
+}
+header{
+    display:flex;
+    flex-wrap:wrap;
+    row-gap: 1em;
+    padding:1em;
+
+}
+#logo{
+    flex:3;
+    font-size: 2em;
+    min-width: 260px;
+}
+nav{
+    flex:2;
+    display:flex;
+    align-items: center;
+}
+nav a{
+    flex:1;
+}
+nav a:hover{
+    color:var(--caramel);
+    font-size:20px;
+}
+header i, nav a i{
+    margin-right: .5em;
+}
+.maintxt{
+    display:flex;
+    flex-direction: column;
+    height:55vh;
+    justify-content: center;
+    padding:3em;
+}
+.tagline1{
+    color:whitesmoke;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+.tagline2{
+    color:var(--skiny);
+    font-weight: bolder;
+}
+.maintxt div{
+    margin-top:.75em;
+}
+.maintxt button{
+    width:20vw;
+    margin-top: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    padding:.7em;
+    background-color:var(--caramel);
+    color:black;
+    border:1px solid var(--lbrown);
+
+}
+.callus{
+    margin-top: 1em;
+}
+/* Menu*/
+
+/*locations*/
+
+footer{
+    background-color: var(--brown);
+    color:white;
+}
